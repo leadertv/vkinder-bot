@@ -34,6 +34,7 @@ VK_TOKEN=your_vk_api_token
 python main.py
 
 ## Структура проекта
+```
 vk-bot/
 ├── vk/
 │   ├── init.py
@@ -45,7 +46,7 @@ vk-bot/
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```
 
 - `vk/`: Содержит модули, связанные с работой VK API.
 - `db/`: Содержит модули, связанные с работой с базой данных.
