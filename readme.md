@@ -38,7 +38,6 @@ python main.py
 vk-bot/
 ├── vk/
 │   ├── init.py
-│   ├── vk_api.py
 │   └── vk_api_helper.py
 ├── db/
 │   ├── init.py
