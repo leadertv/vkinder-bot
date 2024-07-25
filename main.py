@@ -78,7 +78,7 @@ def main():
                         main_menu(user_id)
                     else:
                         send_message(user_id, "Неизвестная команда. Попробуйте снова.")
-        except Exception as e:
+        except Exception as e: # Отработка исключения так как это поделие любит падать при потери связи с космосом.
             print(f"Ошибка: {e}")
             time.sleep(5)
 
